@@ -1,0 +1,22 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "task": "Finish the json test",
+      "task_colour": "red",
+      "complete": false
+    },
+    {
+      "id": 2,
+      "task": "Do some stuff",
+      "task_colour": "blue",
+      "complete": false
+    },
+    {
+      "id": 3,
+      "task": "Do some more stuff",
+      "task_colour": "green",
+      "complete": false
+    }
+  ]
+}
