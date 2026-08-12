@@ -1,15 +1,15 @@
 package org.example;
 
-public class Tasks {
+public class Task {
 
     private int id;
     private String task;
     private String colour;
     private boolean isComplete;
 
-    public Tasks() {}
+    public Task() {}
 
-    public Tasks(int id, String task, String colour, boolean isComplete){
+    public Task(int id, String task, String colour, boolean isComplete){
         this.id=id;
         this.task=task;
         this.colour=colour;
