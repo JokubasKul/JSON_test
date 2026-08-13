@@ -4,8 +4,10 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+
         TaskFunctions taskFunctions = new TaskFunctions();
 
-        taskFunctions.printTasks();
+
+        taskFunctions.showMainPage();
     }
 }

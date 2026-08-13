@@ -1,20 +1,13 @@
-[
-  {
-    "id": 1,
-    "task": "Finish the json test",
-    "colour": "red",
-    "isComplete": false
-  },
-  {
-    "id": 2,
-    "task": "Do some stuff",
-    "colour": "blue",
-    "isComplete": false
-  },
-  {
-    "id": 3,
-    "task": "Do some more stuff",
-    "colour": "green",
-    "isComplete": false
-  }
-]
+[ {
+  "id" : 1,
+  "name" : "Finish the json test",
+  "isComplete" : false
+}, {
+  "id" : 0,
+  "name" : "Final testing",
+  "isComplete" : false
+}, {
+  "id" : 2,
+  "name" : "try testing the id's rebalancing more",
+  "isComplete" : false
+} ]

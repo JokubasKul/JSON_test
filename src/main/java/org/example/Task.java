@@ -3,16 +3,14 @@ package org.example;
 public class Task {
 
     private int id;
-    private String task;
-    private String colour;
+    private String name;
     private boolean isComplete;
 
     public Task() {}
 
-    public Task(int id, String task, String colour, boolean isComplete){
+    public Task(int id, String name, boolean isComplete){
         this.id=id;
-        this.task=task;
-        this.colour=colour;
+        this.name=name;
         this.isComplete=isComplete;
     }
 
@@ -23,18 +21,11 @@ public class Task {
         this.id = id;
     }
 
-    public String getTask() {
-        return task;
+    public String getName() {
+        return name;
     }
-    public void setTask(String task) {
-        this.task = task;
-    }
-
-    public String getColour() {
-        return colour;
-    }
-    public void setColour(String colour) {
-        this.colour = colour;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public boolean getIsComplete() {
